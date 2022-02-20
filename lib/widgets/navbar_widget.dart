@@ -12,7 +12,7 @@ class Navbar extends StatelessWidget {
         children: [
           Image.asset(
             'assets/logos/udoh_logos.png',
-            width: 50.0,
+            width: 60.0,
           ),
           Row(
             children: const [

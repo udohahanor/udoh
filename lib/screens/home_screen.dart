@@ -21,16 +21,14 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: const [
                 Navbar(),
-                SizedBox(height: 40),
                 CircleAvatar(
-                  radius: 90.0,
-                  backgroundColor: Colors.blue,
+                  radius: 100.0,
+                  backgroundColor: Colors.transparent,
                   backgroundImage: AssetImage('assets/images/avatar.jpeg'),
                 ),
-                SizedBox(height: 15),
                 Text(
                   'Game Developer',
                   style: TextStyle(
@@ -38,7 +36,6 @@ class HomeScreen extends StatelessWidget {
                     fontSize: 20.0,
                   ),
                 ),
-                SizedBox(height: 30),
                 SocialWidget(),
               ],
             ),
