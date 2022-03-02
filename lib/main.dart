@@ -21,7 +21,7 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'My Portfolio',
+      title: 'Game Developer Portfolio',
       home: HomeScreen(),
     );
   }
