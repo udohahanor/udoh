@@ -30,14 +30,15 @@ class Navbar extends StatelessWidget {
             children: [
               Image.asset(
                 'assets/logos/udoh_logos.png',
-                width: 60.0,
+                width: 50.0,
               ),
+              const Spacer(),
               Row(
                 children: const [
                   Text(
                     'Home',
                     style: TextStyle(
-                      fontSize: 10.0,
+                      fontSize: 13.0,
                       color: Colors.white,
                     ),
                   ),
@@ -45,7 +46,7 @@ class Navbar extends StatelessWidget {
                   Text(
                     'About',
                     style: TextStyle(
-                      fontSize: 10.0,
+                      fontSize: 13.0,
                       color: Colors.white,
                     ),
                   ),
@@ -53,44 +54,21 @@ class Navbar extends StatelessWidget {
                   Text(
                     'Services',
                     style: TextStyle(
-                      fontSize: 10.0,
+                      fontSize: 13.0,
                       color: Colors.white,
                     ),
                   ),
                   SizedBox(width: 30.0),
                   Text(
-                    'Works',
+                    'Portfolio',
                     style: TextStyle(
-                      fontSize: 10.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                  SizedBox(width: 30.0),
-                  Text(
-                    'Client',
-                    style: TextStyle(
-                      fontSize: 10.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                  SizedBox(width: 30.0),
-                  Text(
-                    'Blog',
-                    style: TextStyle(
-                      fontSize: 10.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                  SizedBox(width: 30.0),
-                  Text(
-                    'Contacts',
-                    style: TextStyle(
-                      fontSize: 10.0,
+                      fontSize: 13.0,
                       color: Colors.white,
                     ),
                   ),
                 ],
               ),
+              const Spacer(),
               const NavIcons(),
             ],
           ),
@@ -102,14 +80,15 @@ class Navbar extends StatelessWidget {
             children: [
               Image.asset(
                 'assets/logos/udoh_logos.png',
-                width: 60.0,
+                width: 70.0,
               ),
+              const Spacer(),
               Row(
                 children: const [
                   Text(
                     'Home',
                     style: TextStyle(
-                      fontSize: 10.0,
+                      fontSize: 13.0,
                       color: Colors.white,
                     ),
                   ),
@@ -117,7 +96,7 @@ class Navbar extends StatelessWidget {
                   Text(
                     'About',
                     style: TextStyle(
-                      fontSize: 10.0,
+                      fontSize: 13.0,
                       color: Colors.white,
                     ),
                   ),
@@ -125,44 +104,21 @@ class Navbar extends StatelessWidget {
                   Text(
                     'Services',
                     style: TextStyle(
-                      fontSize: 10.0,
+                      fontSize: 13.0,
                       color: Colors.white,
                     ),
                   ),
                   SizedBox(width: 30.0),
                   Text(
-                    'Works',
+                    'Portfolio',
                     style: TextStyle(
-                      fontSize: 10.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                  SizedBox(width: 30.0),
-                  Text(
-                    'Client',
-                    style: TextStyle(
-                      fontSize: 10.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                  SizedBox(width: 30.0),
-                  Text(
-                    'Blog',
-                    style: TextStyle(
-                      fontSize: 10.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                  SizedBox(width: 30.0),
-                  Text(
-                    'Contacts',
-                    style: TextStyle(
-                      fontSize: 10.0,
+                      fontSize: 13.0,
                       color: Colors.white,
                     ),
                   ),
                 ],
               ),
+              const Spacer(),
               const NavIcons(),
             ],
           ),
